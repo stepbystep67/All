@@ -1,0 +1,218 @@
+/* #4586bd bleu simpson marge 
+   #83a6c3 bleu gris
+   #4e8883 bleu vert
+/**/ 
+
+/* execution sequentiel comme c# javascript,... (du haut vers le bas)/**/ 
+
+/* entete article complement d'information pied de page /**/
+  
+body
+{
+    
+    background-image: url(../element_blog_perso/personnages.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    /* background-image: url(../images/matrix.jpg);/**/
+    
+}
+
+header, article, aside, footer /* on peut agir sur plusieur element simultanement   /**/ 
+{
+    
+    margin: 30px;/* regle la marge pour les elements header, article, aside, footer/**/
+    background-color: #eee;
+    opacity : 0.8;
+    
+}
+
+a:link, a:visited
+{
+    color: pink;
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited
+{
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #00ff00;
+}
+
+a:active
+{
+    color: #e74b25;
+}
+
+#matt_groening
+{
+    
+    height: 150px;
+    
+}
+
+header /* /**/
+{
+    
+    background-image: url(../images/Les_simpson_logo_France.png);
+    border: 2px solid #4586bd; /*bleu simpson encadre(bordure) et couleur de l'encadrage /**/ 
+    
+}
+
+article /* /**/
+{
+    
+    border: 2px solid #090; /* encadre(bordure) et couleur de l'encadrage /**/
+    
+}
+
+aside /* /**/
+{
+    
+    border: 2px solid #990;/* encadre(bordure) et couleur de l'encadrage /**/
+    
+}
+
+footer /* /**/
+{
+    
+    border: 2px solid #00C;/* encadre(bordure) et couleur de l'encadrage /**/
+    background-color: black;
+   
+    
+}
+
+#footer div
+{
+    
+    width: 300px;
+    margin-left: 5px;
+  
+}
+
+#footer_gauche
+{
+    
+   margin-left: 5px; 
+    
+}
+
+#footer_droite
+{
+    
+    margin-right: 5px;
+    
+}
+
+#entete /* syntaxe pour modifier un element par son id !!!/**/ 
+{
+    
+    text-align:center; /* centre le texte /**/
+    
+}
+
+h1,h2,h3,h4/* /**/
+{
+    
+    text-align: center;/* /**/
+    
+}
+
+.logo img /* syntaxe pour modifier une image par sa class !!!/**/ 
+{
+    
+    width:350px; /* largeur de l'image (soit par la largeur soit par la hauteur ,reglage proportionel)/**/
+   
+}
+
+#tableau/* /**/
+{
+    
+    width: 500px;/* /**/
+    
+}
+
+
+#menuPrincipal li/* /**/
+{
+    
+    display: inline-block; /* affichage dans la ligne uniquement /**/
+    margin-left: 10px; /* marge de gauche a 10 pixel  /**/
+    border: 1px solid #009;/* bordure ou encadrage a une marge de 1 pixel et sa couleur /**/
+    padding: 5px; /* marge interieur /**/ 
+    background-color: #f9db43;/* jaune simpson /**/
+    cursor: pointer; /* syntaxe pour faire changer le curseur lorsque qu'on est au dessus d'un des liens ! '  /**/
+    border-radius: 15px; /* arrondi les coins  /**/ 
+    width: 200px;/* taille du bouton/**/
+    
+}
+
+#menuPrincipal li:hover /* hover signifie lorqu'on est au dessus /**/ 
+{
+    
+    background-color: #4586bd; /* change la couleur de fond lorsqu'on est au dessus de    /**/
+    
+}
+
+#sidebar/* /**/
+{
+    
+    padding: 5px;/* /**/
+    
+}
+
+#footer/* /**/
+{
+    
+    padding: 5px;/* /**/
+  
+}
+
+.tableau_balises/* agit sur /**/
+{
+    
+    padding-left: 5px;/* définit la marge interieur /**/
+    
+}
+
+.pictures/* /**/
+{
+    
+    height: 260px;/* donne la taille de la hauteur/**/
+    margin-left: 1px;/* définit la longueur de la marge droite/**/
+    
+}
+
+#structure_html div/* agit sur tous les div de l'element selectionner par id/**/ 
+{
+   
+    width: 1200px;/**/ /* donne la taille de la largeur/**/
+    margin-left: auto;/* marge gauche automatiquement calculer/**/
+    margin-right: auto;/* marge droite automatiquement caluculer/**/
+    
+}
+
+
+#sidebar *
+{
+    
+    opacity: 1;
+    width: 500px;
+    height: 500px;
+    
+}
+
+ /* https://www.w3schools.com/cssref/pr_class_cursor.asp  /**//* Une liste d'URL séparées par des virgules pour les curseurs personnalisés. Remarque: Toujours spécifier un curseur générique à la fin de la liste, dans le cas où aucun des curseurs définis par l'URL ne peut être utilisé/**/ 
+.url
+{
+    
+    cursor: url(../element_blog_perso/donut/PinkDonut.cur),auto;
+    
+}
+

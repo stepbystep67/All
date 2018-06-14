@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/* 
+    Created on : 23 févr. 2018, 09:35:13
+    Author     : CRM
+*/
+
+/*@charset «utf-8»;*/
+
+/* CSS Document */
+
+body 
+{
+font: normal 90% «Trebuchet MS»,Verdana,»Lucida Grande»,Tahoma,Arial,Helvetica,Sans-Serif;
+color: #444;background:#f4f4f4;
+padding:0 0 2em 0;
+margin:0;
+
+
+header
+{
+color: #ee662a;
+background:white;
+border-bottom:2px dotted #ccc;
+margin:0;
+padding:0.8em;
+}
+
+header h1
+{
+font-size: 4em;
+font-weight: normal;
+margin:0;
+}
+
+header h2
+{
+font-size: 1.5em;
+font-weight:bold;
+margin: 0 0 2.5em 10em;
+color: #e74b25;
+}
+
+header img
+{
+float:left;
+margin-right:3em;
+}
+
+}

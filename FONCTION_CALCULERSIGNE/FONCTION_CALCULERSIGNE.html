@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title>fonction calculer signe</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Justin-Alemany">
+        
+        <!-- sert a pouvoir chargé le fichier javascript -->
+        <script src="FONCTION_CALCULERSIGNE.js"></script>
+        
+    </head>
+    
+    <!--une fois tout le code effectue en dernier se fera le onload qui charge la méthode pour remplir selon la date saisie -->
+    <body onload="remplirSelect();">
+        
+        <BR>
+        <div>exercice calculer signe</div>
+        <BR>
+        <!-- action on mets rien sinon un chemin url, onsubmit appel de la fonction du fichier script avec son parametre id de la variable qui contient la saisie  --> 
+        
+        <form action="" onsubmit="mafonction('champ_utilisateur');" > 
+            
+            <!-- syntaxe pour les champs -->
+            <input type="text" id="prenom" name="prenom"> Prénom
+            <br>
+            <input type="text" id="nom" name="nom"> Nom
+            <br>
+            <!-- syntaxe liste deroulante -->
+            <select id="jour" name="jour" >  </select> Jour
+            <br>
+            <select id="mois" name="mois" >  </select> Mois
+            <br>
+            <select id="annee" name="annee" >  </select> Année
+            <br>
+            <!-- syntaxe pour un champ de saisie -->
+            <input type="text" id="champ_utilisateur" name="champ_utilisateur" size="40" maxlength="14" placeholder=" veuillez tapez ici votre mois de naissance " value=""> 
+            <br>
+      <!--  ["Verseau","Poisson","Belier","Taureau","Gémeaux","Cancer","Lion","Vierge","Balance","Scorpion","Sagittaire","Capricorne","Verseau"]; -->
+      
+      
+            <!-- creation d'un controle submit(soumet le formulair a destination de action -->
+            
+            <input type="submit" name="btn_valider" id="btn_valider" value="Validation" /> Validation
+            <br>
+            <input type="reset" name="recommencer" id="recommencer"  value="recommencer" /> Recommencer
+            <br>
+            <input type="hidden" name="cache" id="cache" value=""/>
+            <br>
+            <input type="button" name="calculsigne" id="calculsigne" value="calculer signe" onclick="calculSigne()"/> Calculer le signe
+            <br>
+            
+            
+        </form>
+       
+        <!-- syntaxe pour remplir les select par leur id !!  -->
+        <script>
+            
+            remplirSelect("jour", 1, 31);
+            remplirSelect("mois", 1, 12);
+            remplirSelect("annee", 2000, 2018);
+            
+        </script>
+        
+    </body>
+    
+</html>

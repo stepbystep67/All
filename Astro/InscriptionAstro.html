@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Justin-Alemany">
+        
+        <title> Exercice ASTRO </title>
+        
+        <script src="js/astro.js"></script>
+        
+    </head>
+    
+    <body>
+        
+        <h1>EXERCICE JAVASCRIPT</h1>
+        
+        <h2>Inscription Astro</h2>
+        
+        <hr>
+        
+        <form action="Accueil.html" onsubmit="return validFormulaire();">
+            
+            <textarea name="champ_libre" id="champ_libre"></textarea> : Champ libre
+            
+            <hr>
+            
+        
+        <input type="text" id="NomUtilisateur" name="NomUtilisateur" required="required" placeholder="veuillez renseigner ici votre nom" size="100"> : Nom
+        <br>
+        <br>
+        <input type="text" id="PrenomUtilisateur" name="PrenomUtilisateur" required="required" placeholder="veuillez renseigner ici votre prénom" size="100"> : Prénom
+        <br>
+        <br>
+        <input type="date" id="DatedeNaissance" name="DatedeNaissance" required="required"> : Date d'anniversaire
+        <br>
+        <br>
+        <input type="text" id="Pseudo" name="Pseudo" readonly="readonly"> : Pseudo calculé
+        <br>
+        <br>
+         <input type="submit" name="valider" id="valider" value="valider" />
+        
+        <input type="reset" name="reinitialiser" id="validation" value="Vider">  
+        
+        </form>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 févr. 2018, 12:25:34
+    Author     : CRM
+*/
+
+ /* fichier réutilisable .css feuille de sytle stylesheet !!!*/
+          h2 /**/
+          {
+              text-align: center; /*centre le texte */
+              border-style:solid;/*defini les contour ou encadre le titre */
+              background-color: blue;/**/
+              font-family: verdana;/**/
+              margin-top: 0;
+          }
+          
+            h1 /**/
+            {
+            border-style:solid;/**/
+            text-align: center;/**/
+            background-color : red;/**/
+                margin-bottom:0;
+            }
+           
+            div/**/
+            {
+                border-style:none/**/
+            } /* par défaut il n'y a pas de bord !!! */ 
+            
+            td /**/
+            {
+                padding-left : 5px /**/
+            }
+            
+           body/**/
+           {
+               background-color : #f0ffff/**/
+           }
+           li/**/
+           {
+               list-style: square/**/
+           }
+           
+           .texte-justify/**/
+           {
+               text-align: justify;/**/
+           }
+           
+           #rominet /**/
+           {
+               float:right/**/
+           }
+           
+           table/**/
+           {
+               border:5px solid #00ff00; /**/
+           width: 500px;/**/
+           border-collapse: collapse;/**/
+           margin-left: auto;/**/
+           margin-right: auto;/**/
+           }
+           
+           td/**/
+           {
+               border: 1px solid #0000ff/**/
+           }
+           
+           .font-blanc/**/
+           {
+               background-color:white/**/
+           }
+           
+           #copyright/**/
+           {
+               font-size :70%/**/
+           }
